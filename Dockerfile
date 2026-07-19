@@ -12,3 +12,4 @@ http.createServer((req, res) => { \
 EXPOSE 3000
 
 CMD ["node", "server.js"]
+
