@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-# Simple inline server — PRT demo ke liye kaafi hai
+#CI/CD Deployment Successful - Version 2
 RUN echo "const http = require('http'); \
 http.createServer((req, res) => { \
   res.writeHead(200, {'Content-Type': 'text/plain'}); \
